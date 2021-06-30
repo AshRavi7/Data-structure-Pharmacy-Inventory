@@ -1,0 +1,37 @@
+------------- printDrugInventory ---------------
+Total number of medicines entered in the inventory: 4
+111 10
+112 5
+113 0
+114 20
+-----------------------------------------------
+------------- printStockOut ---------------
+The following medicines are out of stock:
+113
+-----------------------------------------------
+------------- printDrugInventory ---------------
+Total number of medicines entered in the inventory: 4
+111 10
+112 3
+113 0
+114 20
+-----------------------------------------------
+------------- checkDrugStatus:114 ---------------
+Drug id 114 entered 2 times into the system. Its last status was \‘sell\’ and currently have 20 units available
+-----------------------------------------------
+------------- checkDrugStatus:111 ---------------
+Drug id 111 entered 1 times into the system. Its last status was \‘buy\’ and currently have 10 units available
+-----------------------------------------------
+------------- freqDemand:  sell, 1 ---------------
+Drugs with  sell entries more than 1 times are:
+112 4
+-----------------------------------------------
+------------- supplyShortage: 11 ---------------
+minunits: 11
+Drugs with supply shortage:
+112, 3
+113, 0
+-----------------------------------------------
+------------- checkDrugStatus:600 ---------------
+Drug id 600 does not exist.
+-----------------------------------------------
